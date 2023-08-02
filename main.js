@@ -1,15 +1,16 @@
 
 // -----Завдання 1-----
 
-const numbersT1 = [1, 2, 3]
-const deleted = numbersT1.splice(1, 1, 10)
+let numbersT1 = [1, 2, 3]
+numbersT1 = [1, 10, 3]
+
 console.log(numbersT1)
 
 // -----Завдання 2-----
 
-const strT2 = ["str1 ", "str2 ", "str3 ",]
+let strT2 = ["str1 ", "str2 ", "str3 ",]
+strT2 = ["str1 ", "str2 ", "str3 ", "str4"]
 
-strT2.push("str4")
 console.log(strT2)
 
 // -----Завдання 3-----
